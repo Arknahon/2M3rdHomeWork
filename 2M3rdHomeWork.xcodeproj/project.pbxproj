@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1F1114290E2BA50056C2DA /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F1113290E2BA50056C2DA /* DataBase.swift */; };
 		CE23FA2F2905CC1700145CFA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23FA2E2905CC1700145CFA /* main.swift */; };
+		CE23FA362906BD8F00145CFA /* Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23FA352906BD8F00145CFA /* Students.swift */; };
+		CE23FA382906BDD300145CFA /* Teachers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23FA372906BDD300145CFA /* Teachers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE1F1113290E2BA50056C2DA /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
 		CE23FA2B2905CC1700145CFA /* 2M3rdHomeWork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2M3rdHomeWork; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE23FA2E2905CC1700145CFA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CE23FA352906BD8F00145CFA /* Students.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Students.swift; sourceTree = "<group>"; };
+		CE23FA372906BDD300145CFA /* Teachers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teachers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				CE23FA2E2905CC1700145CFA /* main.swift */,
+				CE1F1113290E2BA50056C2DA /* DataBase.swift */,
+				CE23FA352906BD8F00145CFA /* Students.swift */,
+				CE23FA372906BDD300145CFA /* Teachers.swift */,
 			);
 			path = 2M3rdHomeWork;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1F1114290E2BA50056C2DA /* DataBase.swift in Sources */,
 				CE23FA2F2905CC1700145CFA /* main.swift in Sources */,
+				CE23FA362906BD8F00145CFA /* Students.swift in Sources */,
+				CE23FA382906BDD300145CFA /* Teachers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
